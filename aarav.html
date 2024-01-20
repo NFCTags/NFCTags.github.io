@@ -5,18 +5,25 @@
  <meta name="viewport" content="width=device-width, initial-scale=1.0">
  <title>Aarav's Information Page</title>
  <style>
-body {
- font-family: Arial, sans-serif;
- height: 100vh;
- margin: 0;
- background-color: #f0f0f0;
-}
-.container {
- width: 100%; /* Set the width to 100% */
- max-width: none; /* Remove the maximum width */
- text-align: center;
- margin: 0 auto; /* Center the container horizontally */
-}
+   body {
+   font-family: Arial, sans-serif;
+   height: 100vh;
+   margin: 0;
+   background-color: #f0f0f0;
+   }
+
+   .container {
+   width: 100%; /* Set the width to 100% */
+   max-width: none; /* Remove the maximum width */
+   text-align: center;
+   margin: 0 auto; /* Center the container horizontally */
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   height: 100vh;
+   }
+
 header {
  background: #fe9d0b;
  color: white;
@@ -33,7 +40,7 @@ header {
     text-align: center; /* Center the text */
  }
  img {
-    width: 20%;
+    width: 50%;
     height: auto;
  }
  main {
@@ -48,6 +55,30 @@ header {
     bottom: 0;
     width: 100%;
  }
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.about-me {
+    text-align: justify;
+    line-height: 1.6;
+    font-size: 1.1em;
+    max-width: 80%;
+}
+
+.about-me h2 {
+    font-size: 1.5em;
+    color: #333;
+}
+
+.about-me p {
+    font-weight: 300;
+    color: #666;
+}
  </style>
 </head>
 <body>
@@ -58,11 +89,11 @@ header {
  </header>
  <img src="Aarav.png" alt="Aarav Image">
  <main>
-    <section>
-        <h2>About Me</h2>
-        <p>Information about the team member goes here.</p>
-    </section>
-    <section>
+   <section class="about-me">
+      <h2>About Me</h2>
+      <p>I am Aarav and I am the enterprise manager for Team Apollo. My role has involved managing how we present ourselves to others and the acquisition of funds for this project. I'm interested in the economics as well as maths and physics. As part of my role, I learnt more about how to budget and fund an entire-team project, and improve my communication skills, something vital for the future.</p>
+   </section>
+   <section>
         <h2>Skills</h2>
         <ul>
           <li>Skill 1</li>

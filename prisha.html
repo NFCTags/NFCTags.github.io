@@ -5,50 +5,74 @@
  <meta name="viewport" content="width=device-width, initial-scale=1.0">
  <title>Prisha's Information Page</title>
  <style>
-body {
- font-family: Arial, sans-serif;
- height: 100vh;
- margin: 0;
- background-color: #f0f0f0;
-}
-.container {
- width: 100%; /* Set the width to 100% */
- max-width: none; /* Remove the maximum width */
- text-align: center;
- margin: 0 auto; /* Center the container horizontally */
-}
-header {
- background: #fe9d0b;
- color: white;
- padding: 20px;
- border-radius: 5px;
- width: 100%; /* Make the header take up the full width */
-}
- header h1 {
-    font-size: 2em;
-    text-align: center; /* Center the text */
- }
- header p {
-    font-size: 1.2em;
-    text-align: center; /* Center the text */
- }
- img {
-    width: 20%;
-    height: auto;
- }
- main {
-    padding: 20px;
- }
- footer {
-    background: #551a8b;
-    color: white;
+   body {
+    font-family: Arial, sans-serif;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+   }
+   .container {
+    width: 100%; /* Set the width to 100% */
+    max-width: none; /* Remove the maximum width */
     text-align: center;
-    padding: 10px;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
- }
- </style>
+    margin: 0 auto; /* Center the container horizontally */
+   }
+   header {
+    background: #fe9d0b;
+    color: white;
+    padding: 20px;
+    border-radius: 5px;
+    width: 100%; /* Make the header take up the full width */
+   }
+    header h1 {
+       font-size: 2em;
+       text-align: center; /* Center the text */
+    }
+    header p {
+       font-size: 1.2em;
+       text-align: center; /* Center the text */
+    }
+    img {
+       width: 20%;
+       height: auto;
+    }
+    main {
+       padding: 20px;
+    }
+    footer {
+       background: #551a8b;
+       color: white;
+       text-align: center;
+       padding: 10px;
+       position: fixed;
+       bottom: 0;
+       width: 100%;
+    }
+   .container {
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+       height: 100vh;
+   }
+   
+   .about-me {
+       text-align: justify;
+       line-height: 1.6;
+       font-size: 1.1em;
+       max-width: 80%;
+   }
+   
+   .about-me h2 {
+       font-size: 1.5em;
+       color: #333;
+   }
+   
+   .about-me p {
+       font-weight: 300;
+       color: #666;
+   }
+   </style>
 </head>
 <body>
  <div class="container">
@@ -58,9 +82,9 @@ header {
  </header>
  <img src="Prisha.png" alt="Prisha Image">
  <main>
-    <section>
+    <section class="about-me">
         <h2>About Me</h2>
-        <p>Information about the team member goes here.</p>
+        <p>Hi! My name's Prisha, and I'm a design engineer for Team Apollo. I've always had interest in engineering and F1 in Schools was a great opportunity to explore my interest. As part of my role as front wing engineer, I learned about the principles of aerodynamics and did extensive research on F1 cars previously in the competition and racing on the track today. Gathering this knowledge, I used my CAD skills to design the front wing which was part of the car we raced in the competition! </p>
     </section>
     <section>
         <h2>Skills</h2>

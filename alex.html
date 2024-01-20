@@ -5,50 +5,74 @@
  <meta name="viewport" content="width=device-width, initial-scale=1.0">
  <title>Alex's Information Page</title>
  <style>
-body {
- font-family: Arial, sans-serif;
- height: 100vh;
- margin: 0;
- background-color: #f0f0f0;
-}
-.container {
- width: 100%; /* Set the width to 100% */
- max-width: none; /* Remove the maximum width */
- text-align: center;
- margin: 0 auto; /* Center the container horizontally */
-}
-header {
- background: #fe9d0b;
- color: white;
- padding: 20px;
- border-radius: 5px;
- width: 100%; /* Make the header take up the full width */
-}
- header h1 {
-    font-size: 2em;
-    text-align: center; /* Center the text */
- }
- header p {
-    font-size: 1.2em;
-    text-align: center; /* Center the text */
- }
- img {
-    width: 20%;
-    height: auto;
- }
- main {
-    padding: 20px;
- }
- footer {
-    background: #551a8b;
-    color: white;
+   body {
+    font-family: Arial, sans-serif;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+   }
+   .container {
+    width: 100%; /* Set the width to 100% */
+    max-width: none; /* Remove the maximum width */
     text-align: center;
-    padding: 10px;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
- }
- </style>
+    margin: 0 auto; /* Center the container horizontally */
+   }
+   header {
+    background: #fe9d0b;
+    color: white;
+    padding: 20px;
+    border-radius: 5px;
+    width: 100%; /* Make the header take up the full width */
+   }
+    header h1 {
+       font-size: 2em;
+       text-align: center; /* Center the text */
+    }
+    header p {
+       font-size: 1.2em;
+       text-align: center; /* Center the text */
+    }
+    img {
+       width: 20%;
+       height: auto;
+    }
+    main {
+       padding: 20px;
+    }
+    footer {
+       background: #551a8b;
+       color: white;
+       text-align: center;
+       padding: 10px;
+       position: fixed;
+       bottom: 0;
+       width: 100%;
+    }
+   .container {
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+       height: 100vh;
+   }
+   
+   .about-me {
+       text-align: justify;
+       line-height: 1.6;
+       font-size: 1.1em;
+       max-width: 80%;
+   }
+   
+   .about-me h2 {
+       font-size: 1.5em;
+       color: #333;
+   }
+   
+   .about-me p {
+       font-weight: 300;
+       color: #666;
+   }
+   </style>
 </head>
 <body>
  <div class="container">
@@ -58,9 +82,9 @@ header {
  </header>
  <img src="Alex.png" alt="Alex Image">
  <main>
-    <section>
+    <section class="about-me">
         <h2>About Me</h2>
-        <p>Information about the team member goes here.</p>
+        <p>My name is Alex Hanson and I am one of the design team members if Team Apollo. My role has involved the design of several iterations of back wings as well as research into aerodynamics. I've always enjoyed design and engineering as well as problems involving optimisation. F1 in schools provided the perfect combination of engineering and optimisation. Outside of this project I enjoy tackling step math problems and I am a member of a football team</p>
     </section>
     <section>
         <h2>Skills</h2>

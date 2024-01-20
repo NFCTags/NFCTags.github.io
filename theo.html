@@ -5,50 +5,74 @@
  <meta name="viewport" content="width=device-width, initial-scale=1.0">
  <title>Theo's Information Page</title>
  <style>
-body {
- font-family: Arial, sans-serif;
- height: 100vh;
- margin: 0;
- background-color: #f0f0f0;
-}
-.container {
- width: 100%; /* Set the width to 100% */
- max-width: none; /* Remove the maximum width */
- text-align: center;
- margin: 0 auto; /* Center the container horizontally */
-}
-header {
- background: #fe9d0b;
- color: white;
- padding: 20px;
- border-radius: 5px;
- width: 100%; /* Make the header take up the full width */
-}
- header h1 {
-    font-size: 2em;
-    text-align: center; /* Center the text */
- }
- header p {
-    font-size: 1.2em;
-    text-align: center; /* Center the text */
- }
- img {
-    width: 20%;
-    height: auto;
- }
- main {
-    padding: 20px;
- }
- footer {
-    background: #551a8b;
-    color: white;
+   body {
+    font-family: Arial, sans-serif;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+   }
+   .container {
+    width: 100%; /* Set the width to 100% */
+    max-width: none; /* Remove the maximum width */
     text-align: center;
-    padding: 10px;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
- }
- </style>
+    margin: 0 auto; /* Center the container horizontally */
+   }
+   header {
+    background: #fe9d0b;
+    color: white;
+    padding: 20px;
+    border-radius: 5px;
+    width: 100%; /* Make the header take up the full width */
+   }
+    header h1 {
+       font-size: 2em;
+       text-align: center; /* Center the text */
+    }
+    header p {
+       font-size: 1.2em;
+       text-align: center; /* Center the text */
+    }
+    img {
+       width: 20%;
+       height: auto;
+    }
+    main {
+       padding: 20px;
+    }
+    footer {
+       background: #551a8b;
+       color: white;
+       text-align: center;
+       padding: 10px;
+       position: fixed;
+       bottom: 0;
+       width: 100%;
+    }
+   .container {
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+       height: 100vh;
+   }
+   
+   .about-me {
+       text-align: justify;
+       line-height: 1.6;
+       font-size: 1.1em;
+       max-width: 80%;
+   }
+   
+   .about-me h2 {
+       font-size: 1.5em;
+       color: #333;
+   }
+   
+   .about-me p {
+       font-weight: 300;
+       color: #666;
+   }
+   </style>
 </head>
 <body>
  <div class="container">
@@ -58,9 +82,9 @@ header {
  </header>
  <img src="Theo.png" alt="Theo Image">
  <main>
-    <section>
+    <section class="about-me">
         <h2>About Me</h2>
-        <p>Information about the team member goes here.</p>
+        <p>I am the team manager for Apollo Racing. In the beginning of the school year, I set up the 2 of our school's F1 in Schools teams. I was a non-commissioned officer in the air cadets for 2 years, and have a passion for aerodynamics of aircraft and F1 cars. My hobbies include F1, Quantum club at Oxford university, Astronomy club, Quantum biology club, guitar and reading.  My favourite F1 drivers are Daniel Ricciardo and Yuki Tsunoda, and my favourite book is Project Hail Mary by Andy Weir.</p>
     </section>
     <section>
         <h2>Skills</h2>

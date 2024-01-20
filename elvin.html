@@ -4,7 +4,7 @@
  <meta charset="UTF-8">
  <meta name="viewport" content="width=device-width, initial-scale=1.0">
  <title>Elvin's Information Page</title>
- <style>
+<style>
 body {
  font-family: Arial, sans-serif;
  height: 100vh;
@@ -48,7 +48,31 @@ header {
     bottom: 0;
     width: 100%;
  }
- </style>
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.about-me {
+    text-align: justify;
+    line-height: 1.6;
+    font-size: 1.1em;
+    max-width: 80%;
+}
+
+.about-me h2 {
+    font-size: 1.5em;
+    color: #333;
+}
+
+.about-me p {
+    font-weight: 300;
+    color: #666;
+}
+</style>
 </head>
 <body>
  <div class="container">
@@ -58,9 +82,11 @@ header {
  </header>
  <img src="Elvin.png" alt="Elvin Image">
  <main>
-    <section>
+    <section class="about-me">
         <h2>About Me</h2>
-        <p>Information about the team member goes here.</p>
+        <p>My name is Elvin Dönmez and i am the manufacturing engineer. As part of my role i reasearched the principles of aerodynmics and used this understanding to accurately CFD test our car components, using Autodesk CFD. 
+         I have been interested in engineering and physics since a young age, and this competition provided me with the perfect oppurtunity to deepen my knowledge and gain relevant skills. 
+         Outside of this, my hobbies include art and an interest in film.</p>
     </section>
     <section>
         <h2>Skills</h2>

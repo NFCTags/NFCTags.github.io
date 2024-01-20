@@ -48,6 +48,30 @@ header {
     bottom: 0;
     width: 100%;
  }
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.about-me {
+    text-align: justify;
+    line-height: 1.6;
+    font-size: 1.1em;
+    max-width: 80%;
+}
+
+.about-me h2 {
+    font-size: 1.5em;
+    color: #333;
+}
+
+.about-me p {
+    font-weight: 300;
+    color: #666;
+}
  </style>
 </head>
 <body>
@@ -58,11 +82,11 @@ header {
  </header>
  <img src="Ahana.png" alt="Ahana Image">
  <main>
-    <section>
-        <h2>About Me</h2>
-        <p>Information about the team member goes here.</p>
-    </section>
-    <section>
+   <section class="about-me">
+      <h2>About Me</h2>
+      <p>My name is Ahana Chakraborty and I am the Head engineer on team Apollo. As part of my role, I have researched the principles of aerodynamics, designed the car body using Autodesk Fusion 360 software, and manufactured and assembled the car. I previously used CAD software to design and build a drone, and I took part in F1 in schools last year so I used that knowledge to design the car. I am also a PADI AOWD scuba diver and a 'black tag' in taekwondo.</p>
+   </section>
+   <section>
         <h2>Skills</h2>
         <ul>
           <li>Skill 1</li>
